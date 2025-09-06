@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css"/>
  </head>
  <body>
+   <p id="demo">A Paragraph</p>
+    <button type="reset" onclick="myFunction ()" class="btn"> click me 
+
+    </button>
     <script>
-    //    console.log(parseInt("Hello123")); 
+       console.log(parseInt("Hello123")); 
 
        const person =(name) =>{
         console.log("Hello" + name)
@@ -20,8 +25,20 @@
        favoriteFood.unshift("Beans", "chicken");
        console.log(favoriteFood);
 
+      const myFunction = () =>{
+         document.getElementById("demo") 
+         .innerHTML = "my paragraph";
+      }
+      let musa = [800];
+        schoolBill = [1200];
+
+      const schoolFees = (name) => 
+      schoolBill - musa;
+      console.log(schoolFees(musa));
+
     </script>
-    <!-- <input type="text" name="username" autofocus/>
-    <div contenteditable="true">This is an editable div. click here to edit </div> -->
+    
+    <input type="text" name="username" autofocus/>
+    <div contenteditable="true">This is an editable div. click here to edit </div>
  </body>
  </html>

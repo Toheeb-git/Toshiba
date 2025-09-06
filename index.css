@@ -1,0 +1,10 @@
+ .btn{
+  background-color: aqua;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  font-size: small;
+ }
+ .btn:focus{
+    background-color: red;
+ }
