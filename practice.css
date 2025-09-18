@@ -1,0 +1,7 @@
+ input:focus + label {
+ transform: translateY(-20px);
+ color: #0077b6;
+ }
+ input:focus{
+    outline-color: #0077b6;
+ }
